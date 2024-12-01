@@ -29,6 +29,7 @@ const AddTodoForm = ({ apiUrl, onTodoAdded }) => {
         <input type="text" name="name" value={newTodo.name} onChange={handleInputChange} placeholder="Todo Name" className="border border-gray-400 rounded px-2 py-1 mr-2" />
         <input type="text" name="description" value={newTodo.description} onChange={handleInputChange} placeholder="Todo Description" className="border border-gray-400 rounded px-2 py-1 mr-2" />
         <button type="submit" className="bg-blue-500 text-white rounded px-4 py-1">Add Todo</button>
+        <button type="submit" className="bg-blue-500 text-white rounded px-4 py-1">Add Todo</button>
       </div>
     </form>
   );
